@@ -1,0 +1,68 @@
+/* Styles for the root container of the React application */
+.App {
+  /* display: flex; */
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Styles for the form container */
+.form-container {
+  display: flex;
+  justify-content: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Heading styles within the form container */
+.form-container h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Styles for labels within the form */
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* Styles for input fields within the form */
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styles for buttons within the form */
+.form-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Hover styles for buttons */
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Error message styles */
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
